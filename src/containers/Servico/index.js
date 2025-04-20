@@ -15,10 +15,10 @@ function Servico() {
                         Nosso objetivo é assegurar que seu veículo tenha uma resposta rápida e eficiente ao trocar de marcha, proporcionando uma condução mais fluida e evitando danos futuros ao sistema de transmissão.
                     </p>
                 </div>
-                <ImageServico src={FileImages.embreagem} />
+                <ImageServico src={FileImages.servicos.embreagem} />
             </ContainerInfo>
             <ContainerInfo>
-                <ImageServico src={FileImages.suspencao} />
+                <ImageServico src={FileImages.servicos.suspencao} />
                 <div>
                     <h2>Reparos de Suspenção</h2>
                     <p>A suspensão do seu veículo é crucial para a estabilidade e o conforto durante a condução. Aqui na Auto Mecânica Bernardo oferecemos serviços completos de reparo e manutenção de suspensão, abordando desde componentes desgastados até ajustes finos que melhoram a resposta e a segurança do veículo.
@@ -34,10 +34,10 @@ function Servico() {
                         Nosso serviço é meticuloso, assegurando que cada componente seja protegido contra o desgaste prematuro, contribuindo para uma vida útil prolongada do câmbio e para uma experiência de condução mais segura e confortável.
                     </p>
                 </div>
-                <ImageServico src={FileImages.cambio} />
+                <ImageServico src={FileImages.servicos.cambio} />
             </ContainerInfo>
             <ContainerInfo>
-                <ImageServico src={FileImages.motor} />
+                <ImageServico src={FileImages.servicos.motor} />
                 <div>
                     <h2>Manutenção de Motores Flex</h2>
                     <p>Motores flex exigem um cuidado especializado devido à sua capacidade de operar com diferentes tipos de combustíveis. Operamos na manutenção desses motores, garantindo que seu veículo tenha um desempenho eficiente, seja qual for o combustível utilizado.

@@ -31,7 +31,7 @@ function Home() {
         <Header />
       </ContainerHeader>
 
-      <ImageBackGround img={FileImages.background}>
+      <ImageBackGround img={FileImages.banners.background}>
         <Info>
           <Title>Auto Mecanica Bernardo</Title>
           <Text>
@@ -50,17 +50,17 @@ function Home() {
         </ContainerBorder>
         <ContainerInfo>
           <Container>
-            <ImgsSection src={FileImages.carro} />
+            <ImgsSection src={FileImages.icones.injecao} />
             <h2>Injeção Eletronica</h2>
             <p>A luz de injeção eletrônica acende para alertar sobre problemas no sistema de injeção ou em componentes relacionados, como parte do gerenciamento do motor</p>
           </Container>
           <Container>
-            <ImgsSection src={FileImages.oleo} />
+            <ImgsSection src={FileImages.icones.oleo} />
             <h2>Troca de Óleo</h2>
             <p>A troca de óleo é uma prática importantíssima para o bom funcionamento do sistema de lubrificação do carro, sendo importante para que o motor funcione de forma correta e evite o desgaste das peças antes do tempo.</p>
           </Container>
           <Container>
-            <ImgsSection src={FileImages.freio} />
+            <ImgsSection src={FileImages.icones.freio} />
             <h2>Pastilhas de Freio</h2>
             <p>Ao substituí-las no momento certo, garante-se o funcionamento eficaz do sistema de freios, proporcionando uma frenagem segura e confiável.</p>
           </Container>
@@ -79,7 +79,7 @@ function Home() {
             }}>
               Pagamentos:
             </p>
-            <ImgCards src={FileImages.card} />
+            <ImgCards src={FileImages.icones.card} />
           </ContainerFooter>
           <ContainerFooter >
             <h3>Serviços:</h3>
@@ -97,7 +97,7 @@ function Home() {
           <ContainerFooter >
             <h3>Localização:</h3>
             <a href="https://www.google.com/maps/place/Auto+Mecanica+Bernardo/@-23.4779687,-46.7210339,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef96e7f4523d7:0xbc9e084caa09b5ab!8m2!3d-23.4779687!4d-46.7210339!16s%2Fg%2F11dynpz047?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">
-              <ImgMaps src={FileImages.maps} />
+              <ImgMaps src={FileImages.icones.maps} />
             </a>
           </ContainerFooter>
         </ContainerButtom>
