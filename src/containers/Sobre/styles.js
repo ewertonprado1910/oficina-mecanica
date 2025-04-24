@@ -11,49 +11,51 @@ h1 {
     font-size: 25px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 70px;
-}
-
-p {
-    color: #fff;
-    font-size: 18.5px;
-    font-weight: 300;
-    margin-bottom: 50px;
-    padding: 0 50px;
-    text-align: center;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 800px) {
     height: 100%;
     
+    
     h1 {
         font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-    p {
-        font-size: 12px;
-        margin-top: 150px;
-    }
-    
 }
 `
 export const ContainerInfo = styled.div `
-height: 100%;
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
-padding: 50px;
+padding: 50px 22px;
+gap: 30px;
+
+p {
+    color: #fff;
+    font-size: 18.5px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 900px;
+}
 
 @media screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
+
+    p {
+        font-size: 12px;
+    }
 }
 `
 export const Image = styled.img `
 max-width: 600px;
+width: 100%;
 height: auto;
 
-@media screen and (max-width: 800px) {
-    max-width: 250px;
-    padding-bottom: 20px;
-}
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `
