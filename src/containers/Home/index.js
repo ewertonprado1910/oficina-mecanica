@@ -75,6 +75,7 @@ function Home() {
             <p style={{
               color: "#E9FC16",
               fontSize: 20,
+              fontWeight: 600,
               marginTop: 30
             }}>
               Pagamentos:
