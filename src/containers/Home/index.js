@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import {
   ContainerHeader,
@@ -27,13 +28,21 @@ import Header from "../../components/Header"
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>Auto Mecânica Bernardo</title>
+        <meta name="description" content="A mecânica de carro especializada em manutenção e reparo dos sistemas do veículo, garantindo a segurança e o bom funcionamento." />
+        <meta name="keywords" content="auto mecânica, manutenção de carros, reparo de veículos, troca de óleo, injeção eletrônica, freios, suspensão" />
+        <meta property="og:title" content="Auto Mecânica Bernardo" />
+        <meta property="og:description" content="Serviços de manutenção e reparo para seu veículo com qualidade e segurança." />
+      </Helmet>
+
       <ContainerHeader>
         <Header />
       </ContainerHeader>
 
       <ImageBackGround img={FileImages.banners.background}>
         <Info>
-          <Title>Auto Mecanica Bernardo</Title>
+          <Title>Auto Mecânica Bernardo</Title>
           <Text>
             A mecânica de carro envolve o estudo, manutenção e reparo dos sistemas que compõem um veículo, como motor, suspensão, freios e transmissão. O mecânico diagnostica falhas, realiza trocas de peças e garante o bom funcionamento do automóvel. Esse trabalho exige conhecimento técnico e atenção aos detalhes para garantir segurança.
           </Text>
