@@ -39,7 +39,6 @@ function Home() {
       <ContainerHeader>
         <Header />
       </ContainerHeader>
-
       <ImageBackGround img={FileImages.banners.background}>
         <Info>
           <Title>Auto Mecânica Bernardo</Title>
