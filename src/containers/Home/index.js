@@ -30,6 +30,7 @@ function Home() {
     <>
       <Helmet>
         <title>Auto Mecânica Bernardo</title>
+        <meta name="google-site-verification" content="Wnj1iI2teNp73n3N8er80cJAzaW5IEfEg7DqeAcMNig" />
         <meta name="description" content="A mecânica de carro especializada em manutenção e reparo dos sistemas do veículo, garantindo a segurança e o bom funcionamento." />
         <meta name="keywords" content="auto mecânica, manutenção de carros, reparo de veículos, troca de óleo, injeção eletrônica, freios, suspensão" />
         <meta property="og:title" content="Auto Mecânica Bernardo" />
